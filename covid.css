@@ -1,0 +1,110 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+/*Imagem do fundo*/
+.fundo{
+    background: url(pastaimagens/imgfundo2.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.fundo2{
+    background: url(pastaimagens/imgfundo3.jpeg) no-repeat;
+    background-size: cover;
+    line-height: 100vh;
+}
+/*Estilização da logo da universidade e do instagram na barra superior*/
+.barra{
+    height: 80px;
+    width: 100%;
+    background: rgb(0,0,0,0.4);
+}
+.logo{
+    margin:50px;
+}
+.insta{
+    margin: 20px;
+}
+/*Estilização dos botões da barra que da acesso a outros conteúdos da página*/
+#home{
+    margin: 0px 20px;
+}
+#projeto{
+    margin: 0px 20px;
+}
+#vacina{ 
+    margin: 0px 20px;
+}
+#covid{
+    margin: 0px 20px;
+}
+.barra ul{
+    float: right;
+    margin-right: 20px;
+}
+.barra ul li{
+    list-style: none;
+    margin: 0px, 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;    
+    padding: 6px 13px;
+    transition: .4s;
+}
+.barra ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+/*Estilização do título da página*/
+.titulo h1{
+    color: white;
+    font-size: 50px;
+    width: 900px;
+    text-align: center;
+}
+.CV {
+    margin: 50px 180px;
+    
+}
+/*Estilização dos botões do centro*/
+.titulo .botão2{
+    margin: 25px 280px;
+}
+.botão2 button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.botão2 .bnt{
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.botão2 a{
+    text-decoration:none;
+    color: #ffb3b3
+}
+a:hover{
+    text-decoration: underline;
+}
+/*Centralização do vídeo na página*/
+.video{
+    margin: 0px 250px;
+}
+/*Estilização do conteúdo da página*/
+.informações{
+    padding: 10px;
+    background-color: #ffe4ea;
+}
+.subtitulo{
+    color: #0677b8;
+}

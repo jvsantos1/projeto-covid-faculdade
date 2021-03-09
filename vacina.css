@@ -1,0 +1,64 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+/*Estilização da logo da universidade e do instagram na barra superior*/
+.barra{
+    height: 80px;
+    width: 100%;
+    background: rgb(0,0,0,0.4);
+}
+.logo{
+    margin:50px;
+}
+.insta{
+    margin: 20px;
+}
+/*Estilização dos botões da barra que da acesso a outros conteúdos da página*/
+#home{
+    margin: 0px 20px;
+}
+#projeto{
+    margin: 0px 20px;
+}
+#vacina{ 
+    margin: 0px 20px;
+}
+#covid{
+    margin: 0px 20px;
+}
+.barra ul{
+    float: right;
+    margin-right: 20px;
+}
+.barra ul li{
+    list-style: none;
+    margin: 0px, 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;    
+    padding: 6px 13px;
+    transition: .4s;
+}
+.barra ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+/*Estilização da immagem */
+.img{
+    padding: 0px 0px;
+    
+}
+/*Estilização do texto e da lista no final da página*/
+.ordem{
+    font-family: Arial;
+    text-align: justify;
+    padding: 0px 20px;
+}
+.lista{
+    font-size: 20px;
+}
